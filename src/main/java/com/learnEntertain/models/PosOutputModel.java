@@ -7,6 +7,7 @@ public class PosOutputModel {
     String sentence;
     Map<String,String> posInputMap;
     Map<String,String> posOutputMap;
+    boolean successFlag;
 
     public String getSentence() {
         return sentence;
@@ -30,5 +31,13 @@ public class PosOutputModel {
 
     public void setPosOutputMap(Map<String, String> posOutputMap) {
         this.posOutputMap = posOutputMap;
+    }
+
+    public boolean isSuccessFlag() {
+        return successFlag;
+    }
+
+    public void setSuccessFlag(boolean successFlag) {
+        this.successFlag = successFlag;
     }
 }

@@ -24,7 +24,8 @@ public class SolveDailyChallenge {
 
     @PostMapping(value = "validateSentence", consumes = "application/json", produces = "application/json")
     public PosOutputModel getValidatedOutput(@RequestBody PosInputModel posInputModel) {
-        return sentenceService.validatePosSentence(posInputModel);
+        PosOutputModel outputModel = sentenceService.validatePosSentence(posInputModel);
+        return outputModel;
     }
 
 }
