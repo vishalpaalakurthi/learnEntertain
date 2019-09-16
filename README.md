@@ -15,15 +15,15 @@ OpenNLP Project
 
 # REST Calls
 
-###### GET: localhost:8080/dailySentence
+###### GET: `localhost:8080/dailySentence`
 **Response(randomly select a sentence from file):** `Oh, how I'd love to go!` 
 
-###### POST: localhost:8080/validateSentence
+###### POST: `localhost:8080/validateSentence`
 **Input body:** 
 `{
 "inputSentence":"Oh, how I'd love to go!",
 "posData":{"Would":"MD","you":"PRP","like":"IN","to":"TO","travel":"VB","with":"IN","me":"PRP","Oh":"UH","how":"WRB","I'd":"NNP","love":"VB","go":"VB"}
-}`
+}`<br>
 **Response(Validate input using Apache OpenNLP POS library):**
 `{"sentence":"Oh, how I'd love to go!","posInputMap":{"Would":"MD","you":"PRP","like":"IN","to":"TO","travel":"VB","with":"IN","me":"PRP","Oh":"UH","how":"WRB","I'd":"NNP","love":"VB","go":"VB"},"posOutputMap":{"Would":"MD","you":"PRP","like":"IN","to":"TO","travel":"VB","with":"IN","me":"PRP","Oh":"UH","how":"WRB","I'd":"NNP","love":"VB","go":"VB"},"successFlag":true}`
 
