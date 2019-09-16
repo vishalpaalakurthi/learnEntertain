@@ -13,7 +13,7 @@ OpenNLP Project
 **TO**  = "to" <br>
 **JJ**  = "Adjective"
 
-#REST Calls
+# REST Calls
 
 ###### GET: localhost:8080/dailySentence
 **Response(randomly select a sentence from file):** `Oh, how I'd love to go!` 
