@@ -2,7 +2,7 @@
 
 OpenNLP Project
 
-#Pos Constants
+# Pos Constants
 **NN**  = "Noun, singular or mass" <br>
 **DT**  = "Determiner" <br>
 **VB**  = "Verb, base form" <br>
